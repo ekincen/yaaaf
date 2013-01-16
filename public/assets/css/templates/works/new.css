@@ -1,0 +1,322 @@
+#tpl_works_new .mainform{
+	margin:150px 0;
+	position:relative;
+	left:170px;
+}
+#tpl_works_new .mainform .tipsrow{
+	text-align:right;
+	padding-top:15px;
+}
+#tpl_works_new .works_title{
+	width:450px;
+}
+#tpl_works_new .works_title .text-input{
+	font-size: 18px;
+	text-align: center !important;
+}
+#tpl_works_new .model_type{
+	width:120px;
+}
+#tpl_works_new .gallery{
+	display: none;
+	position: relative;
+	width:0;background:#444;
+}
+#tpl_works_new .gallery .close{
+	display: block;
+	text-indent: -9999px;
+	position: absolute;
+	right:-30px;top:205px;
+	width:30px;height:100px;
+	background: #ccc;
+}
+#tpl_works_new .gallery .prev,
+#tpl_works_new .gallery .next{
+	position: relative;
+	display: block;
+	width:100%;height:30px;
+	background: #333;
+	text-indent: -9999px;
+}
+#tpl_works_new .gallery .prev:hover,
+#tpl_works_new .gallery .next:hover{
+	background: #555;
+}
+#tpl_works_new .gallery .next{
+	position: absolute;
+	left:0;bottom: 0;
+	width: 100%;
+}
+#tpl_works_new .gallery .arrow{
+	border-width: 10px;
+	_border-top-color: white;
+	_border-bottom-color: white;
+	_filter: chroma( color =white);
+	position: absolute;
+	left: 155px;top:0;
+}
+#tpl_works_new .gallery .arrow.up{
+	border-color:transparent transparent #777;
+	_border-color: white white white #777;	
+}
+#tpl_works_new .gallery .arrow.down{
+	border-color:#777 transparent transparent transparent;
+	_border-color: #777 white white white;
+	top:10px;	
+}
+#tpl_works_new .gallery ul{
+	/*overflow-y:scroll;*/
+}
+#tpl_works_new .gallery li{
+	padding:10px 0;
+	color: #fff;
+	line-height: 16px;
+	position: relative;
+	cursor: pointer;
+}
+#tpl_works_new .gallery li img{
+	border:2px solid #777;
+}
+#tpl_works_new .gallery li.hover{
+	background:#777;
+}
+#tpl_works_new .gallery li.hover img{
+	border-color:#fff;
+}
+#tpl_works_new .gallery li p{
+	margin-top:8px;
+}
+#tpl_works_new .gallery .listinfo{
+	line-height: 20px;
+	padding:5px 10px;
+}
+#tpl_works_new .gallery .listinfo,
+#tpl_works_new .gallery .listinfo a{
+	color:#777;
+}
+#tpl_works_new .gallery .listinfo a span{
+	padding-left: 5px;
+}
+
+/* Example tokeninput style #1: Token vertical list*/
+ul.token-input-list {
+	overflow: hidden; 
+	height: auto !important; 
+	height: 1%;
+	cursor: text;
+	z-index: 999;
+	background-color: #fff;
+	clear: left;
+	padding: 0 !important;
+}
+ul.token-input-list li input {
+	border: 0;
+	width: 350px;
+	padding: 3px 8px;
+	background-color: white;
+	-webkit-appearance: caret;
+}
+
+li.token-input-token {
+	overflow: hidden; 
+	height: auto !important; 
+	height: 1%;
+	margin: 3px;
+	padding: 3px 5px;
+	background-color: #467ABE;
+	color:#fff;
+	display: block;
+}
+li.token-input-token p {
+	float: left;
+}
+
+li.token-input-token span {
+	float: right;
+	cursor: pointer;
+}
+.text-input .token-input-token {
+	padding:7px 10px;	
+}
+.text-input.token-input-list li input {
+	height:34px;
+	font-size: inherit;
+}
+
+/*li.token-input-selected-token {
+	background-color: #08844e;
+	color: #fff;
+}
+
+li.token-input-selected-token span {
+	color: #bbb;
+}
+
+div.token-input-dropdown {
+	position: absolute;
+	width: 400px;
+	background-color: #fff;
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	cursor: default;
+	font-size: 12px;
+	z-index: 1;
+}
+
+div.token-input-dropdown p {
+	margin: 0;
+	padding: 5px;
+	font-weight: bold;
+	color: #777;
+}
+
+div.token-input-dropdown ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.token-input-dropdown ul li {
+	background-color: #fff;
+	padding: 3px;
+	list-style-type: none;
+}
+
+div.token-input-dropdown ul li.token-input-dropdown-item {
+	background-color: #fafafa;
+}
+
+div.token-input-dropdown ul li.token-input-dropdown-item2 {
+	background-color: #fff;
+}
+
+div.token-input-dropdown ul li em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+div.token-input-dropdown ul li.token-input-selected-dropdown-item {
+	background-color: #d0efa0;
+}*/
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #555;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #333;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
